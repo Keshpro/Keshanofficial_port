@@ -13,9 +13,9 @@ export default function Home() {
     <main className="min-h-screen bg-[#0a0a0a] text-gray-200">
       <Hero />
       <About />
+      <Skills />
       <Education /> 
       <Experience /> 
-      <Skills />
       <Projects />
       <YoutubeSection /> 
       <Contact />
