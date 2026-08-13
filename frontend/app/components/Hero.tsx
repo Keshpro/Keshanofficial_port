@@ -49,9 +49,9 @@ export default function Hero() {
         }}
       />
 
-      {/* Background glow — midnight blue base + gold accent glow */}
-      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[600px] h-[600px] bg-[#D4AF37]/[0.04] rounded-full blur-[130px] -z-10" />
-      <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-[#1e3a5f]/30 rounded-full blur-[140px] -z-10" />
+      {/* Background glow — gold + steel-blue accents, matching site palette */}
+      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[600px] h-[600px] bg-[#D4AF37]/[0.05] rounded-full blur-[130px] -z-10" />
+      <div className="absolute bottom-0 right-1/4 w-125 h-125 bg-[#4a6fa5]/[0.12] rounded-full blur-[140px] -z-10" />
 
       <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
@@ -128,7 +128,7 @@ export default function Hero() {
           <motion.div
             animate={{ y: [0, -12, 0] }}
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-            className="absolute top-8 -right-4 sm:right-0 md:-right-6 flex items-center gap-2 bg-[#0d1220] border border-[#D4AF37]/25 px-4 py-2.5 rounded-xl"
+            className="absolute top-8 -right-4 sm:right-0 md:-right-6 flex items-center gap-2 bg-[#0d1424] border border-[#D4AF37]/25 px-4 py-2.5 rounded-xl"
           >
             <Palette size={16} className="text-[#D4AF37]" />
             <span className="text-[#e8eaf0] font-mono text-xs tracking-wide">Design</span>
@@ -138,7 +138,7 @@ export default function Hero() {
           <motion.div
             animate={{ y: [0, 12, 0] }}
             transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-            className="absolute top-1/2 -translate-y-1/2 -left-4 sm:-left-8 md:-left-10 flex items-center gap-2 bg-[#0d1220] border border-[#4a6fa5]/35 px-4 py-2.5 rounded-xl"
+            className="absolute top-1/2 -translate-y-1/2 -left-4 sm:-left-8 md:-left-10 flex items-center gap-2 bg-[#0d1424] border border-[#4a6fa5]/35 px-4 py-2.5 rounded-xl"
           >
             <Code2 size={16} className="text-[#7ea3d4]" />
             <span className="text-[#e8eaf0] font-mono text-xs tracking-wide">Code</span>
@@ -148,7 +148,7 @@ export default function Hero() {
           <motion.div
             animate={{ y: [0, -10, 0] }}
             transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-            className="absolute bottom-8 -right-2 sm:right-2 md:-right-4 flex items-center gap-2 bg-[#0d1220] border border-[#D4AF37]/25 px-4 py-2.5 rounded-xl"
+            className="absolute bottom-8 -right-2 sm:right-2 md:-right-4 flex items-center gap-2 bg-[#0d1424] border border-[#D4AF37]/25 px-4 py-2.5 rounded-xl"
           >
             <Lightbulb size={16} className="text-[#D4AF37]" />
             <span className="text-[#e8eaf0] font-mono text-xs tracking-wide">Ideas</span>
