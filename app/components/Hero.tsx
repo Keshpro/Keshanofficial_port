@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Download, Code2, Palette, Lightbulb } from "lucide-react";
 
-const ROLES = ["Web Developer", "Software Engineer", "UI/UX Designer", "Freelancer"];
+const ROLES = ["Web Developer", "Software Engineer", "UI/UX Designer", "Freelance Content Creator", "Problem Solver"];
 
 export default function Hero() {
   const [roleIndex, setRoleIndex] = useState(0);
@@ -50,8 +50,8 @@ export default function Hero() {
       />
 
       {/* Background glow — midnight blue base + gold accent glow */}
-      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[600px] h-[600px] bg-[#10182c]/[0.04] rounded-full blur-[130px] -z-10" />
-      <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-[#1e3a5f]/30 rounded-full blur-[140px] -z-10" />
+      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-600px h-150 bg-[#10182c]/4 rounded-full blur-[130px] -z-10" />
+      <div className="absolute bottom-0 right-1/4 w-125 h-125 bg-[#1e3a5f]/30 rounded-full blur-[140px] -z-10" />
 
       <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
@@ -68,8 +68,6 @@ export default function Hero() {
             transition={{ delay: 0.2 }}
             className="font-mono text-[#D4AF37] tracking-widest uppercase text-xs mb-5 flex items-center justify-center lg:justify-start gap-2"
           >
-            <span className="w-1.5 h-1.5 rounded-full bg-[#D4AF37] inline-block" />
-            Welcome to my portfolio
           </motion.p>
 
           <h1 className="text-4xl md:text-6xl font-extrabold text-[#e8eaf0] tracking-tight mb-4 leading-tight">
@@ -86,20 +84,14 @@ export default function Hero() {
           </p>
 
           <p className="text-base md:text-lg text-[#8b96ab] mb-10 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            I&apos;m Keshan, a Software Engineering undergrad and Web Developer
-            specializing in creating high-performance, modern web applications
-            with a strong eye for design.
+            I&apos;m Keshan, a Software Engineer, Web Developer & Problem Solver
+            creating modern, high-performance digital experiences by combining clean code, thoughtful design, and practical problem-solving.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
             <Link href="#projects">
               <button className="flex items-center gap-2 bg-[#D4AF37] hover:bg-[#c4a02f] text-[#0a0e1a] px-8 py-3 rounded-full font-semibold transition-all duration-300">
                 View My Work <ArrowRight size={18} />
-              </button>
-            </Link>
-            <Link href="/resume.pdf" target="_blank">
-              <button className="flex items-center gap-2 bg-transparent border border-[#2a3548] hover:border-[#3f4d68] text-[#e8eaf0] px-8 py-3 rounded-full font-medium transition-all duration-300">
-                Download CV <Download size={18} />
               </button>
             </Link>
           </div>
@@ -118,7 +110,7 @@ export default function Hero() {
               alt="Keshan Panditharathna"
               fill
               priority
-              className="object-cover grayscale-[15%]"
+              className="object-cover grayscale-15"
             />
             {/* thin gradient wash instead of heavy shadow */}
             <div className="absolute inset-0 bg-linear-to-t from-[#0a0e1a]/40 via-transparent to-transparent" />
