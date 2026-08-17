@@ -41,7 +41,7 @@ const cardVariants: Variants = {
 export default function About() {
   return (
     <section id="about" className="relative py-24 px-6 bg-[#10182c]">
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#2a3548] to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-[#2a3548] to-transparent" />
 
       <div className="max-w-6xl mx-auto">
         <motion.h2
@@ -102,7 +102,7 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="lg:col-span-5 flex justify-center lg:justify-end"
           >
-            <div className="relative w-full max-w-[320px] aspect-[4/3] rounded-2xl overflow-hidden border border-[#2a3548]">
+            <div className="relative w-full max-w-[320px] aspect-4/3 rounded-2xl overflow-hidden border border-[#2a3548]">
               <Image
                 src="/image/heroimg.jpg"
                 alt="Keshan Panditharathna"
