@@ -53,7 +53,7 @@ export default function YoutubeSection() {
         <div className="absolute left-[-10%] top-[10%] h-137.5 w-137.5 rounded-full bg-blue-400/10 blur-[150px]" />
 
         {/* Amber Glow */}
-        <div className="absolute right-[-10%] bottom-[5%] h-[550px] w-[550px] rounded-full bg-amber-500/10 blur-[150px]" />
+        <div className="absolute right-[-10%] bottom-[5%] h-137.5 w-137.5 rounded-full bg-amber-500/10 blur-[150px]" />
 
         {/* Center Glow */}
         <div className="absolute left-1/2 top-1/2 h-[400px] w-[400px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-indigo-500/5 blur-[150px]" />

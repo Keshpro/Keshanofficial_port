@@ -167,7 +167,7 @@ function ExperienceCard({ exp, index }: { exp: ExperienceItem; index: number }) 
       </div>
 
       {/* Card */}
-      <div className="relative overflow-hidden rounded-[26px] border border-white/[0.08] bg-[#0B1735]/80 p-6 backdrop-blur-xl transition-all duration-500 md:p-8 lg:ml-12">
+      <div className="relative overflow-hidden rounded-[26px] border border-white/[0.08] bg-[#0d1424]/80 p-6 backdrop-blur-xl transition-all duration-500 md:p-8 lg:ml-12">
         
         {/* Hover glow */}
         <div className="pointer-events-none absolute -right-24 -top-24 h-48 w-48 rounded-full bg-amber-500/0 blur-[80px] transition-all duration-700 group-hover:bg-amber-500/10" />
@@ -227,7 +227,7 @@ function ExperienceCard({ exp, index }: { exp: ExperienceItem; index: number }) 
           {exp.tech.map((item: string, index: number) => (
             <span
               key={`${item}-${index}`}
-              className="rounded-full border border-white/8 bg-[#101D40] px-3 py-1.5 text-[10px] font-medium tracking-wide text-blue-100/50 transition-all duration-300 group-hover:border-blue-300/20 group-hover:text-blue-100/70"
+              className="rounded-full border border-white/8 bg-[#10182c] px-3 py-1.5 text-[10px] font-medium tracking-wide text-blue-100/50 transition-all duration-300 group-hover:border-blue-300/20 group-hover:text-blue-100/70"
             >
               {item}
             </span>
@@ -247,7 +247,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="relative overflow-hidden bg-[#101D40] px-6 py-28"
+      className="relative overflow-hidden bg-[#10182c] px-6 py-28"
     >
       {/* =================================================
           BACKGROUND
@@ -255,10 +255,10 @@ export default function Experience() {
 
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
         {/* Blue glow */}
-        <div className="absolute left-[-15%] top-[10%] h-[500px] w-[500px] rounded-full bg-blue-500/10 blur-[150px]" />
+        <div className="absolute left-[-15%] top-[10%] h-[500px] w-[500px] rounded-full bg-[#4a6fa5]/10 blur-[150px]" />
 
         {/* Amber glow */}
-        <div className="absolute right-[-15%] top-[45%] h-[500px] w-[500px] rounded-full bg-amber-500/5 blur-[150px]" />
+        <div className="absolute right-[-15%] top-[45%] h-[500px] w-[500px] rounded-full bg-[#D4AF37]/5 blur-[150px]" />
 
         {/* Grid */}
         <div
@@ -509,7 +509,7 @@ export default function Experience() {
                   duration: 0.5,
                   delay: index * 0.1,
                 }}
-                className="group relative overflow-hidden rounded-[24px] border border-white/[0.08] bg-[#0B1735]/80 p-6 backdrop-blur-xl transition-all duration-500 hover:-translate-y-1 hover:border-amber-400/30"
+                className="group relative overflow-hidden rounded-[24px] border border-white/[0.08] bg-[#0d1424]/80 p-6 backdrop-blur-xl transition-all duration-500 hover:-translate-y-1 hover:border-amber-400/30"
               >
 
                 {/* Glow */}
@@ -555,7 +555,7 @@ export default function Experience() {
                   {item.services.map((service) => (
                     <span
                       key={service}
-                      className="rounded-full border border-white/[0.08] bg-[#101D40] px-3 py-1.5 text-[9px] font-medium text-blue-100/50"
+                      className="rounded-full border border-white/[0.08] bg-[#10182c] px-3 py-1.5 text-[9px] font-medium text-blue-100/50"
                     >
                       {service}
                     </span>
