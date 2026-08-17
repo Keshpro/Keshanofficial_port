@@ -118,7 +118,7 @@ export default function Skills() {
               className={`${cat.span} relative bg-[#0d1424] border border-[#2a3548] rounded-2xl p-7 overflow-hidden group hover:border-[#D4AF37]/30 transition-colors duration-300`}
             >
               {/* corner glow, appears on hover */}
-              <div className="absolute -top-10 -right-10 w-32 h-32 bg-[#D4AF37]/0 group-hover:bg-[#D4AF37]/[0.06] rounded-full blur-2xl transition-all duration-500" />
+              <div className="absolute -top-10 -right-10 w-32 h-32 bg-[#D4AF37]/0 group-hover:bg-[#D4AF37]/6 rounded-full blur-2xl transition-all duration-500" />
 
               <div className="relative flex items-start justify-between mb-4">
                 <h3 className="font-mono text-[#7ea3d4] uppercase tracking-wider text-xs">
