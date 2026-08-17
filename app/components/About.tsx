@@ -63,21 +63,13 @@ export default function About() {
             transition={{ duration: 0.5 }}
             className="lg:col-span-7"
           >
-            <p className="font-mono text-[#D4AF37] tracking-widest uppercase text-xs mb-4 flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#D4AF37] inline-block" />
-              Hello there
-            </p>
 
             <h3 className="text-2xl md:text-4xl font-bold text-[#e8eaf0] leading-tight mb-5">
-              Hi, I&apos;m Keshan Panditharathna — a Software Engineering student & creative developer.
+              I&apos;m Keshan Panditharathna <br></br> A Software Engineer & Problem Solver.
             </h3>
 
             <p className="text-[#8b96ab] text-base md:text-lg leading-relaxed mb-8 max-w-xl">
-              I specialize in full-stack web development, UI/UX design, and
-              digital media strategies. From engineering automated business
-              platforms to operating my creative agency, KreativeLabs, I focus
-              on delivering seamless, high-performance digital experiences
-              that blend clean code with premium design aesthetics.
+              I build full-stack web applications with a strong focus on clean code, responsive interfaces, and practical problem-solving. I enjoy turning ideas into reliable, user-friendly digital solutions.
             </p>
 
             <div className="flex items-center gap-6">

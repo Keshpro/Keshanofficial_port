@@ -17,15 +17,15 @@ const educationData = [
     id: 2,
     degree: "Diploma in Information Technology (UK)",
     institution: "ESOFT Metro Campus",
-    duration: "2024",
+    duration: "2023",
     location: "Sri Lanka",
     description: "Built a strong foundation in programming, database management, and software development principles."
   },
   {
     id: 3,
-    degree: "Diploma in Business Management",
+    degree: "Diploma in Business Management (UK)",
     institution: "ESOFT Metro Campus",
-    duration: "2023", // Oyata hari year eka methana update karanna puluwan
+    duration: "2023", 
     location: "Sri Lanka",
     description: "Gained core knowledge in business operations, management principles, and organizational behavior."
   },
@@ -46,17 +46,14 @@ const certificationsData = [
     id: 1,
     title: "Figma Workshop",
     issuer: "NSBM Green University",
-    date: "2024" // Awashya nam date eka wenas karanna
+    date: "2025" 
   },
-  /* 
-  Example for future additions:
   {
     id: 2,
-    title: "CCNA Networking Basics",
+    title: "IT Support Desk Fundamentals",
     issuer: "Cisco Networking Academy",
-    date: "2025"
+    date: "2026" 
   },
-  */
 ];
 
 export default function Education() {
