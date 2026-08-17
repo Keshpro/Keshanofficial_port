@@ -23,7 +23,7 @@ const techExperiences = [
     duration: "Feb 2024",
     type: "Finance & Operations",
     description:
-      "Gained practical corporate experience in financial operations, client communication, credit evaluation and handling financial information within a professional business environment.",
+      "Strong business and financial skills; includes familiarity with financial, retail, and consumer analytics\n• Proven ability to build strong relationships, as well as lead through influence with peers, stakeholders, or\nsenior leadership\n• Focuses on value-added marketing support in the areas of marketing efficiency and effectiveness\nthrough financial analysis and insights into brand/brand performance.",
     tech: ["Finance", "Data Analysis", "Client Management", "Customer Service"],
   },
 
@@ -34,7 +34,7 @@ const techExperiences = [
     duration: "Oct 2024",
     type: "Print & Digital Media",
     description:
-      "Building practical digital solutions for businesses including inventory and POS systems, service-based booking platforms and e-commerce experiences. Handling development, UI implementation, deployment and client requirements.",
+      "• Designed high-fidelity website prototypes based on client goal and feedback.\n• Refined designs through iterative reviews to meet visual and functional requirements.\n• Conducted product design testing on 100+ projects using a variety of software, models, and design tools.",
     tech: ["Photoshop", "Customer Service", "Business Solutions", "Digital Media"],
   },
 ];
