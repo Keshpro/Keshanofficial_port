@@ -15,14 +15,14 @@ export default function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "hello@keshanpandi.me",
-      href: "mailto:hello@keshanpandi.me",
+      value: "keshanebusiness@gmail.com",
+      href: "mailto:keshanebusiness@gmail.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "0771844491",
-      href: "tel:0771844491",
+      value: "0769909227",
+      href: "tel:0769909227",
     },
     {
       icon: MapPin,
@@ -44,10 +44,10 @@ export default function Contact() {
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
 
         {/* Steel-blue glow */}
-        <div className="absolute left-[-15%] top-[20%] h-[500px] w-[500px] rounded-full bg-[#4a6fa5]/10 blur-[150px]" />
+        <div className="absolute left-[-15%] top-[20%] h-125 w-125 rounded-full bg-[#4a6fa5]/10 blur-[150px]" />
 
         {/* Gold glow */}
-        <div className="absolute right-[-15%] bottom-[-10%] h-[500px] w-[500px] rounded-full bg-[#D4AF37]/10 blur-[150px]" />
+        <div className="absolute right-[-15%] bottom-[-10%] h-125 w-125 rounded-full bg-[#D4AF37]/10 blur-[150px]" />
 
         {/* Grid */}
         <div
@@ -100,13 +100,13 @@ export default function Contact() {
             Have a project
             <br />
 
-            <span className="bg-gradient-to-r from-[#D4AF37] via-[#D4AF37] to-[#c4a02f] bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-[#D4AF37] via-[#D4AF37] to-[#c4a02f] bg-clip-text text-transparent">
               in mind?
             </span>
           </h2>
 
           <div className="mt-7 flex justify-center">
-            <div className="h-[3px] w-20 rounded-full bg-[#D4AF37]" />
+            <div className="h-0.75 w-20 rounded-full bg-[#D4AF37]" />
           </div>
 
           <p className="mx-auto mt-7 max-w-2xl text-sm leading-7 text-[#8b96ab] md:text-base">
@@ -127,7 +127,7 @@ export default function Contact() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.15 }}
-          className="mx-auto mt-10 flex w-fit items-center gap-3 rounded-full border border-emerald-400/15 bg-emerald-400/[0.06] px-5 py-2.5"
+          className="mx-auto mt-10 flex w-fit items-center gap-3 rounded-full border border-emerald-400/15 bg-emerald-400/6 px-5 py-2.5"
         >
           <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-400 shadow-[0_0_12px_rgba(52,211,153,.8)]" />
 
@@ -157,7 +157,7 @@ export default function Contact() {
 
                 <Link
                   href={item.href}
-                  className="group relative flex h-full min-h-[170px] flex-col justify-between overflow-hidden rounded-2xl border border-[#2a3548] bg-[#0d1424]/80 p-6 backdrop-blur-xl transition-all duration-500 hover:-translate-y-1 hover:border-[#D4AF37]/30 hover:bg-[#0d1424]"
+                  className="group relative flex h-full min-h-42.5 flex-col justify-between overflow-hidden rounded-2xl border border-[#2a3548] bg-[#0d1424]/80 p-6 backdrop-blur-xl transition-all duration-500 hover:-translate-y-1 hover:border-[#D4AF37]/30 hover:bg-[#0d1424]"
                 >
 
                   {/* Glow */}
@@ -185,7 +185,7 @@ export default function Contact() {
                       {item.label}
                     </p>
 
-                    <p className="mt-2 break-words text-sm font-semibold text-[#a8b2c4] transition-colors duration-300 group-hover:text-[#e8eaf0]">
+                    <p className="mt-2 wrap-break-word text-sm font-semibold text-[#a8b2c4] transition-colors duration-300 group-hover:text-[#e8eaf0]">
                       {item.value}
                     </p>
 
@@ -213,8 +213,8 @@ export default function Contact() {
         >
 
           <a
-            href="mailto:hello@keshanpandi.me"
-            className="group relative flex flex-col items-center justify-between gap-6 overflow-hidden rounded-[28px] border border-[#D4AF37]/15 bg-gradient-to-r from-[#D4AF37]/[0.08] to-[#c4a02f]/[0.04] p-8 text-center transition-all duration-500 hover:border-[#D4AF37]/30 md:flex-row md:p-10 md:text-left"
+            href="mailto:keshanebusiness@gmail.com"
+            className="group relative flex flex-col items-center justify-between gap-6 overflow-hidden rounded-[28px] border border-[#D4AF37]/15 bg-linear-to-r from-[#D4AF37]/8 to-[#c4a02f]/4 p-8 text-center transition-all duration-500 hover:border-[#D4AF37]/30 md:flex-row md:p-10 md:text-left"
           >
 
             {/* Background glow */}
@@ -227,7 +227,7 @@ export default function Contact() {
               </p>
 
               <p className="mt-3 text-xl font-bold text-[#e8eaf0] md:text-2xl">
-                hello@keshanpandi.me
+                keshanebusiness@gmail.com
               </p>
 
             </div>
