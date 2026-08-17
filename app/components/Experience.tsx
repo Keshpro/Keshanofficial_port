@@ -18,46 +18,24 @@ import { Key, ReactElement, JSXElementConstructor, ReactNode, ReactPortal } from
 const techExperiences = [
   {
     id: "01",
-    role: "Founder & Lead Developer",
-    company: "KreativeLabs",
-    duration: "Feb 2026 — Present",
-    type: "Creative Technology Studio",
+    role: "Marketing Officer",
+    company: "LB Finance",
+    duration: "Feb 2024",
+    type: "Finance & Operations",
     description:
-      "Operating a creative technology studio focused on custom full-stack web solutions, digital branding, content creation and modern media experiences. Leading projects from concept and UI/UX direction to development and deployment.",
-    tech: ["Next.js", "React", "Node.js", "Tailwind CSS"],
+      "Gained practical corporate experience in financial operations, client communication, credit evaluation and handling financial information within a professional business environment.",
+    tech: ["Finance", "Data Analysis", "Client Management", "Customer Service"],
   },
 
   {
     id: "02",
-    role: "Freelance Full-Stack Developer",
-    company: "Self-Employed",
-    duration: "Oct 2025 — Present",
-    type: "Independent Development",
+    role: "Graphic Designer & Content Creator",
+    company: "CJ Print Shop",
+    duration: "Oct 2024",
+    type: "Print & Digital Media",
     description:
       "Building practical digital solutions for businesses including inventory and POS systems, service-based booking platforms and e-commerce experiences. Handling development, UI implementation, deployment and client requirements.",
-    tech: ["React.js", "Laravel", "Spring Boot"],
-  },
-
-  {
-    id: "03",
-    role: "Computing Professional",
-    company: "NSBM Green University",
-    duration: "Active",
-    type: "Software Engineering",
-    description:
-      "Developing professional knowledge and practical experience across software engineering, system analysis, architecture, UI/UX and modern full-stack development while working on academic and personal software projects.",
-    tech: ["Software Engineering", "System Design", "Professional Development"],
-  },
-
-  {
-    id: "04",
-    role: "Graphic Designer & Content Creator",
-    company: "Freelance & Corporate",
-    duration: "Jul 2025 — Jan 2026",
-    type: "Creative & Digital Media",
-    description:
-      "Worked across graphic design, digital content production and AI-assisted media creation. Produced cinematic visual content, promotional graphics and high-resolution AI-generated video concepts while supporting digital marketing activities.",
-    tech: ["UI/UX", "AI Video Tools", "Graphic Design"],
+    tech: ["Photoshop", "Customer Service", "Business Solutions", "Digital Media"],
   },
 ];
 
@@ -68,21 +46,21 @@ const techExperiences = [
 const corporateExperiences = [
   {
     id: "05",
-    role: "Credit Officer",
-    company: "LB Finance",
-    duration: "Previous Role",
-    type: "Finance & Operations",
+    role: "Content Creator & Marketing Officer",
+    company: "Interlanka Cargo",
+    duration: "Contract",
+    type: "Logistics & Operations",
     description:
       "Gained practical corporate experience in financial operations, client communication, credit evaluation and handling financial information within a professional business environment.",
-    tech: ["Finance", "Data Analysis", "Client Management"],
+    tech: ["Finance", "Data Analysis", "Client Management", "Customer Service"],
   },
 
   {
     id: "06",
-    role: "Manager / Moto Mechanic",
-    company: "Nishantha Auto Electricals",
-    duration: "Ongoing",
-    type: "Management & Automotive",
+    role: "Content Creator & Marketing Officer",
+    company: "English Hub International",
+    duration: "Active",
+    type: "Educational Institutions",
     description:
       "Managing the Kumbiyangoda, Matale branch while handling daily operations, customer relationships, logistics and hands-on automotive electrical and mechanical work.",
     tech: ["Management", "Operations", "Automotive"],
@@ -167,7 +145,7 @@ function ExperienceCard({ exp, index }: { exp: ExperienceItem; index: number }) 
       </div>
 
       {/* Card */}
-      <div className="relative overflow-hidden rounded-[26px] border border-white/[0.08] bg-[#0d1424]/80 p-6 backdrop-blur-xl transition-all duration-500 md:p-8 lg:ml-12">
+      <div className="relative overflow-hidden rounded-[26px] border border-white/8 bg-[#0d1424]/80 p-6 backdrop-blur-xl transition-all duration-500 md:p-8 lg:ml-12">
         
         {/* Hover glow */}
         <div className="pointer-events-none absolute -right-24 -top-24 h-48 w-48 rounded-full bg-amber-500/0 blur-[80px] transition-all duration-700 group-hover:bg-amber-500/10" />
@@ -197,7 +175,7 @@ function ExperienceCard({ exp, index }: { exp: ExperienceItem; index: number }) 
           </div>
 
           {/* Date */}
-          <div className="w-fit rounded-full border border-white/10 bg-white/[0.04] px-4 py-2">
+          <div className="w-fit rounded-full border border-white/10 bg-white/4 px-4 py-2">
             <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-blue-100/50">
               {exp.duration}
             </span>
@@ -205,7 +183,7 @@ function ExperienceCard({ exp, index }: { exp: ExperienceItem; index: number }) 
         </div>
 
         {/* Divider */}
-        <div className="mb-7 h-px bg-gradient-to-r from-white/10 via-white/5 to-transparent" />
+        <div className="mb-7 h-px bg-linear-to-r from-white/10 via-white/5 to-transparent" />
 
         {/* Description */}
         <div className="relative grid gap-8 md:grid-cols-[1fr_auto] md:items-end">
@@ -214,7 +192,7 @@ function ExperienceCard({ exp, index }: { exp: ExperienceItem; index: number }) 
           </p>
 
           {/* Arrow */}
-          <div className="hidden h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/[0.03] transition-all duration-500 group-hover:border-amber-400/40 group-hover:bg-amber-400 group-hover:text-black md:flex">
+          <div className="hidden h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/3 transition-all duration-500 group-hover:border-amber-400/40 group-hover:bg-amber-400 group-hover:text-black md:flex">
             <ArrowUpRight
               size={18}
               className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
@@ -255,10 +233,10 @@ export default function Experience() {
 
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
         {/* Blue glow */}
-        <div className="absolute left-[-15%] top-[10%] h-[500px] w-[500px] rounded-full bg-[#4a6fa5]/10 blur-[150px]" />
+        <div className="absolute left-[-15%] top-[10%] h-125 w-125 rounded-full bg-[#4a6fa5]/10 blur-[150px]" />
 
         {/* Amber glow */}
-        <div className="absolute right-[-15%] top-[45%] h-[500px] w-[500px] rounded-full bg-[#D4AF37]/5 blur-[150px]" />
+        <div className="absolute right-[-15%] top-[45%] h-125 w-125 rounded-full bg-[#D4AF37]/5 blur-[150px]" />
 
         {/* Grid */}
         <div
@@ -320,9 +298,9 @@ export default function Experience() {
 
           {/* Accent */}
           <div className="mt-7 flex items-center gap-2">
-            <div className="h-[3px] w-20 rounded-full bg-amber-400" />
-            <div className="h-[3px] w-8 rounded-full bg-amber-400/30" />
-            <div className="h-[3px] w-2 rounded-full bg-amber-400/10" />
+            <div className="h-0.75 w-20 rounded-full bg-amber-400" />
+            <div className="h-0.75 w-8 rounded-full bg-amber-400/30" />
+            <div className="h-0.75 w-2 rounded-full bg-amber-400/10" />
           </div>
 
           <p className="mt-7 max-w-2xl text-sm leading-7 text-blue-100/50 md:text-base">
@@ -509,7 +487,7 @@ export default function Experience() {
                   duration: 0.5,
                   delay: index * 0.1,
                 }}
-                className="group relative overflow-hidden rounded-[24px] border border-white/[0.08] bg-[#0d1424]/80 p-6 backdrop-blur-xl transition-all duration-500 hover:-translate-y-1 hover:border-amber-400/30"
+                className="group relative overflow-hidden rounded-3xl border border-white/[0.08] bg-[#0d1424]/80 p-6 backdrop-blur-xl transition-all duration-500 hover:-translate-y-1 hover:border-amber-400/30"
               >
 
                 {/* Glow */}
@@ -584,21 +562,9 @@ export default function Experience() {
           transition={{
             duration: 0.8,
           }}
-          className="mt-20 flex flex-col items-center justify-between gap-4 border-t border-white/[0.08] pt-8 sm:flex-row"
+          className="mt-20 flex flex-col items-center justify-between gap-4 border-t border-white/8 pt-8 sm:flex-row"
         >
-          <div className="flex items-center gap-3">
-            <span className="h-2 w-2 animate-pulse rounded-full bg-amber-400 shadow-[0_0_12px_rgba(245,158,11,.8)]" />
-
-            <span className="text-[10px] font-semibold uppercase tracking-[0.25em] text-blue-100/30">
-              Always building. Always learning.
-            </span>
-          </div>
-
-          <span className="text-[10px] tracking-[0.3em] text-blue-100/15">
-            KESHAN / EXPERIENCE
-          </span>
         </motion.div>
-
       </div>
     </section>
   );

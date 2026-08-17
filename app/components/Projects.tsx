@@ -42,7 +42,7 @@ const projectsData = [
   },
   {
     number: "04",
-    title: "NWD Clothing E-Commerce",
+    title: "Binlex Clothing E-Commerce",
     category: "E-Commerce",
     description:
       "A modern React-based e-commerce platform created for a women's clothing brand, combining a clean storefront experience with responsive product presentation and live hosting.",
