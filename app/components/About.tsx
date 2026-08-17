@@ -78,7 +78,7 @@ export default function About() {
                   View My Work <ArrowUpRight size={16} />
                 </button>
               </Link>
-              <Link href="/resume.pdf" target="_blank">
+              <Link href="/image/keshan_panditharathna.pdf" target="_blank">
                 <button className="flex items-center gap-2 text-[#7ea3d4] hover:text-[#a3c2e8] font-medium text-sm transition-colors duration-300">
                   Download Resume <Download size={16} />
                 </button>
