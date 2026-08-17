@@ -50,7 +50,7 @@ export default function Hero() {
       />
 
       {/* Background glow — midnight blue base + gold accent glow */}
-      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[600px] h-[600px] bg-[#D4AF37]/[0.04] rounded-full blur-[130px] -z-10" />
+      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[600px] h-[600px] bg-[#10182c]/[0.04] rounded-full blur-[130px] -z-10" />
       <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-[#1e3a5f]/30 rounded-full blur-[140px] -z-10" />
 
       <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -112,9 +112,9 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="relative flex justify-center lg:justify-end"
         >
-          <div className="relative w-[280px] sm:w-[360px] md:w-[420px] aspect-4/5 rounded-2xl overflow-hidden border border-[#2a3548]">
+          <div className="relative w-70 sm:w-90 md:w-105 aspect-4/5 rounded-2xl overflow-hidden border border-[#2a3548]">
             <Image
-              src="/images/hero-photo.jpg"
+              src="/image/heroimg.jpg"
               alt="Keshan Panditharathna"
               fill
               priority

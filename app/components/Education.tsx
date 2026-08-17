@@ -1,8 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { GraduationCap, Calendar, MapPin } from "lucide-react";
+import { GraduationCap, Calendar, MapPin, Award } from "lucide-react";
 
+// Major Educational Qualifications
 const educationData = [
   {
     id: 1,
@@ -22,6 +23,14 @@ const educationData = [
   },
   {
     id: 3,
+    degree: "Diploma in Business Management",
+    institution: "ESOFT Metro Campus",
+    duration: "2023", // Oyata hari year eka methana update karanna puluwan
+    location: "Sri Lanka",
+    description: "Gained core knowledge in business operations, management principles, and organizational behavior."
+  },
+  {
+    id: 4,
     degree: "G.C.E. Advanced Level Examination",
     institution: "Secondary Education",
     duration: "2022",
@@ -30,11 +39,32 @@ const educationData = [
   }
 ];
 
+// Online Courses, Certifications & Workshops
+// Oyata Microsoft, Cisco wage ewa issarahata mekata add karanna puluwan
+const certificationsData = [
+  {
+    id: 1,
+    title: "Figma Workshop",
+    issuer: "NSBM Green University",
+    date: "2024" // Awashya nam date eka wenas karanna
+  },
+  /* 
+  Example for future additions:
+  {
+    id: 2,
+    title: "CCNA Networking Basics",
+    issuer: "Cisco Networking Academy",
+    date: "2025"
+  },
+  */
+];
+
 export default function Education() {
   return (
-    <section id="education" className="py-24 px-6 relative bg-[#0a0e1a]">
+    <section id="education" className="py-24 px-6 relative bg-[#10182c]">
       <div className="max-w-4xl mx-auto">
 
+        {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -51,7 +81,8 @@ export default function Education() {
           <div className="h-1 w-20 bg-[#D4AF37] rounded-full mb-6"></div>
         </motion.div>
 
-        <div className="space-y-8">
+        {/* Major Education Timeline */}
+        <div className="space-y-8 mb-20">
           {educationData.map((edu, index) => (
             <motion.div
               key={edu.id}
@@ -74,7 +105,7 @@ export default function Education() {
                   </div>
                 </div>
 
-                <div className="flex flex-col gap-2 text-sm text-[#8b96ab]">
+                <div className="flex flex-col gap-2 text-sm text-[#8b96ab] whitespace-nowrap">
                   <span className="flex items-center gap-2">
                     <Calendar size={16} className="text-[#7ea3d4]" /> {edu.duration}
                   </span>
@@ -90,6 +121,44 @@ export default function Education() {
             </motion.div>
           ))}
         </div>
+
+        {/* Certifications & Workshops Sub-section */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+        >
+          <div className="flex items-center gap-3 mb-8">
+            <Award className="text-[#D4AF37]" size={28} />
+            <h3 className="text-2xl font-bold text-[#e8eaf0]">
+              Certifications & Workshops
+            </h3>
+          </div>
+          
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {certificationsData.map((cert, index) => (
+              <motion.div
+                key={cert.id}
+                initial={{ opacity: 0, scale: 0.95 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: index * 0.1 }}
+                className="bg-[#0d1424] border border-[#2a3548] p-5 rounded-xl hover:border-[#D4AF37]/40 transition-colors group"
+              >
+                <h4 className="text-[#e8eaf0] font-semibold text-lg mb-1 group-hover:text-[#D4AF37] transition-colors">
+                  {cert.title}
+                </h4>
+                <p className="text-sm text-[#8b96ab] mb-3">
+                  Offered by: <span className="text-[#a8b2c4]">{cert.issuer}</span>
+                </p>
+                <div className="flex items-center gap-2 text-xs text-[#7ea3d4] font-medium">
+                  <Calendar size={14} /> {cert.date}
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
 
       </div>
     </section>

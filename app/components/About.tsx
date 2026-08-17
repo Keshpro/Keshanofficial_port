@@ -1,8 +1,9 @@
 "use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import { motion, Variants } from "framer-motion";
-import { Laptop2, Braces, Palette, Video, ArrowUpRight, Download } from "lucide-react";
+import { Laptop2, Palette, Video, Braces, ArrowUpRight, Download } from "lucide-react";
 
 const highlights = [
   {
@@ -29,27 +30,17 @@ const highlights = [
 
 const containerVariants: Variants = {
   hidden: {},
-  visible: {
-    transition: { staggerChildren: 0.12, delayChildren: 0.2 },
-  },
+  visible: { transition: { staggerChildren: 0.1 } },
 };
 
 const cardVariants: Variants = {
-  hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.22, 0.61, 0.36, 1] } },
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.4, ease: "easeOut" } },
 };
 
 export default function About() {
   return (
-    <motion.section
-      id="about"
-      initial={{ opacity: 0, backgroundColor: "#0a0e1a" }}
-      whileInView={{ opacity: 1, backgroundColor: "#10182c" }}
-      viewport={{ once: true, amount: 0.15 }}
-      transition={{ duration: 0.8, ease: "easeOut" }}
-      className="relative py-24 px-6 bg-[#10182c]"
-    >
-      {/* subtle top divider glow so the section change reads clearly */}
+    <section id="about" className="relative py-24 px-6 bg-[#10182c]">
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#2a3548] to-transparent" />
 
       <div className="max-w-6xl mx-auto">
@@ -63,13 +54,13 @@ export default function About() {
           About Me
         </motion.h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-14">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-16">
           {/* Text content */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.1 }}
+            transition={{ duration: 0.5 }}
             className="lg:col-span-7"
           >
             <p className="font-mono text-[#D4AF37] tracking-widest uppercase text-xs mb-4 flex items-center gap-2">
@@ -82,10 +73,11 @@ export default function About() {
             </h3>
 
             <p className="text-[#8b96ab] text-base md:text-lg leading-relaxed mb-8 max-w-xl">
-              I specialize in full-stack web development, UI/UX design, and digital media strategies. 
-              From engineering automated business platforms to operating my creative agency, KreativeLabs, 
-              I focus on delivering seamless, high-performance digital experiences that blend clean code 
-              with premium design aesthetics.
+              I specialize in full-stack web development, UI/UX design, and
+              digital media strategies. From engineering automated business
+              platforms to operating my creative agency, KreativeLabs, I focus
+              on delivering seamless, high-performance digital experiences
+              that blend clean code with premium design aesthetics.
             </p>
 
             <div className="flex items-center gap-6">
@@ -107,12 +99,12 @@ export default function About() {
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
             className="lg:col-span-5 flex justify-center lg:justify-end"
           >
             <div className="relative w-full max-w-[320px] aspect-[4/3] rounded-2xl overflow-hidden border border-[#2a3548]">
               <Image
-                src="/images/about-photo.jpg"
+                src="/image/heroimg.jpg"
                 alt="Keshan Panditharathna"
                 fill
                 className="object-cover"
@@ -148,12 +140,12 @@ export default function About() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.3 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
           className="text-center text-[#8b96ab] italic text-lg"
         >
           &quot;Work Hard in Silence&quot;
         </motion.p>
       </div>
-    </motion.section>
+    </section>
   );
 }
