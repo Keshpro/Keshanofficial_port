@@ -46,7 +46,7 @@ const techExperiences = [
 const corporateExperiences = [
   {
     id: "05",
-    role: "Content Creator & Marketing Officer",
+    role: "Content Creator & Marketing Process",
     company: "Interlanka Cargo",
     duration: "Contract",
     type: "Logistics & Operations",
@@ -57,7 +57,7 @@ const corporateExperiences = [
 
   {
     id: "06",
-    role: "Content Creator & Marketing Officer",
+    role: "Content Creator & Marketing Head",
     company: "English Hub International",
     duration: "Active",
     type: "Educational Institutions",
@@ -84,7 +84,7 @@ const collaborations = [
 
   {
     number: "02",
-    company: "NWD Clothing",
+    company: "Binlex Clothing",
     category: "E-Commerce",
     work: "Online Clothing Store",
     description:
