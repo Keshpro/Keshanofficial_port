@@ -29,15 +29,14 @@ export const allProjects = [
   },
 
   {
-    id: "urban-hair",
-    title: "Urban Hair Studio",
+    id: "Luxe Hair Studio",
+    title: "Luxe Hair Studio",
 
     description:
       "A luxury-style responsive portfolio and automated booking system.",
 
     longDescription:
-      "A premium, luxury-style portfolio and automated booking system created for Urban Hair Studio. Designed with a focus on high-end minimalist aesthetics (black and gold), featuring seamless animations and a responsive booking interface.",
-
+      "Welcome to the official online platform of Luxe Hair Studio. This website is designed to provide a seamless and convenient experience for our clients to explore services, connect with our team, and stay updated with the latest trends and offerings. With a focus on simplicity and elegance, we bring the Luxe experience directly to you.",
     tech: [
       "React",
       "Next.js",
@@ -45,41 +44,42 @@ export const allProjects = [
       "Vercel",
     ],
 
-    liveUrl: "#",
+    liveUrl: "https://urban-hair-studio-eight.vercel.app/",
     githubUrl: "#",
 
-    category: "Landing Page",
+    category: "website",
 
     images: [
-      "https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1000&auto=format&fit=crop",
-
-      "https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=1000&auto=format&fit=crop",
+      "/image/psalon/1.webp",
+      "/image/psalon/2.webp",
+      "/image/psalon/3.webp",
+      "/image/psalon/4.webp",
     ],
   },
 
   {
-    id: "vanguard-market",
-    title: "VANGUARED Marketplace",
+    id: "Binlex Clothing",
+    title: "Binlex Clothing",
 
     description:
       "A multi-vendor apparel and footwear digital marketplace.",
 
     longDescription:
-      "A fully functional multi-vendor digital marketplace for apparel and footwear. Features include independent seller item uploads, Google OAuth authentication, structured database order recording, and real-time inventory updates.",
+      "BINLEX Clothing is a front-end UI architecture designed to deliver a seamless, responsive, and visually striking shopping experience. This repository serves as the high-fidelity structural prototype, focusing heavily on semantic markup, fluid typography, and premium UI/UX design principles before backend integration.",
 
     tech: [
-      "React.js",
-      "Node.js",
-      "Firebase",
-      "Google Auth",
+      "HTML",
+      "CSS",
+      "JavaScript",
     ],
 
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://keshpro.github.io/BINLEX-Clothing/",
+    githubUrl: "https://github.com/Keshpro/BINLEX-Clothing.git",
 
     category: "E-Commerce",
 
     images: [
+      "",
       "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1000&auto=format&fit=crop",
 
       "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=1000&auto=format&fit=crop",
@@ -87,14 +87,61 @@ export const allProjects = [
   },
 
   {
-    id: "nwd-clothing",
-    title: "NWD Clothing E-Commerce",
+    id: "Kreative.info",
+    title: "Kreative.info",
 
     description:
       "A React-based e-commerce web platform for a women's clothing shop.",
 
     longDescription:
-      "Custom e-commerce web platform engineered for NWD Clothing. Features a complete interactive storefront interface, secure checkout process flow, and optimized live hosting environments.",
+      "Custom e-commerce web platform engineered for Kreative.info. Features a complete interactive storefront interface, secure checkout process flow, and optimized live hosting environments.",
+
+    tech: [
+      "React.js",
+      "Node.js",
+      "Tailwind CSS",
+      "Vercel",
+    ],
+
+    liveUrl: "https://kreative-info.pages.dev/e]",
+    githubUrl: "#",
+
+    category: "website",
+
+    images: [
+      "https://media.licdn.com/dms/image/v2/D562DAQH2I9tEIHAD6g/profile-treasury-image-shrink_800_800/B56aBtzZHjHMAI-/0/1788548584162?e=1789855200&v=beta&t=UPeiWdkkvFhxFdI75dEi1NEsZubwQqeA_O3ZkE57iX4",
+      "https://media.licdn.com/dms/image/v2/D562DAQGPSlrRAh-SNQ/profile-treasury-image-shrink_800_800/B56aBtzZOfGUAI-/0/1788548585172?e=1789855200&v=beta&t=txh4a_rtzDD4moyCIzXYu1JQX5uB7SHLv9MySk2PZws",
+      "https://media.licdn.com/dms/image/v2/D562DAQFQDJR3p0GuUg/profile-treasury-image-shrink_800_800/B56aBtzZB6JUAI-/0/1788548583812?e=1789855200&v=beta&t=qmeKl2J8VZfgP-rygHLHJtS96IjO01SFDnA5QuyO5rM",
+    ],
+  },
+  {
+    id: "ExpenseTracker",
+    title: "Expense Tracker v3.1",
+
+    description:
+      "A React-based expense tracking application.",
+
+    longDescription: `🔥 What's New in v3.1: 
+
+✅ Subscriptions Manager: Effortlessly track and manage your recurring monthly and annual bills and auto-payments, including Netflix, Spotify, Wi-Fi, and more.
+
+✅ Business Notes: A secure, built-in notepad to save your financial plans, reminders, and business ideas.
+
+✅ Smart Loan Sync: A fully automated system where lent money is instantly recorded as an expense, while borrowed money is automatically added as income.
+
+✅ Smart Balance Carry-Forward: Your remaining balance from previous months is automatically carried forward to the current month and clearly reflected in your PDF reports.
+
+✅ Premium UI & Lock Screen: A redesigned, modern lock screen that provides an additional layer of security for your financial data.
+
+✅ Productivity Shortcuts: Navigate the application faster using F1–F7 keyboard shortcuts with minimal mouse interaction.
+
+🔄 Seamless Upgrades for Existing Users: Upgrading from an older version? The automated data migration system safely transfers your existing records to the new version, helping ensure a smooth upgrade without manually re-entering your data.
+
+🚀 Coming Soon in v3.2: Dedicated modules for Home Loans and Credit/Debit Card Management.
+
+Looking for a premium desktop application to manage your personal or business finances? Get in touch today! 📩
+
+Your Money, Your Control! 💰`,
 
     tech: [
       "React.js",
@@ -104,14 +151,43 @@ export const allProjects = [
     ],
 
     liveUrl: "#",
-    githubUrl: "#",
+    LinkedIn: "#",
+
+    category: "Applications",
+
+    images: [
+      "https://media.licdn.com/dms/image/v2/D5622AQFbrgeXTmYg1w/feedshare-image-high-res/B56Z1Jv2.sJ8AU-/0/1775058776245?e=1790812800&v=beta&t=TNtGorYdma8h_R9kBxZdioVpFFXhAICX9Z3m02LLec4",
+      "https://media.licdn.com/dms/image/v2/D5622AQHKhBXv_ivPhg/feedshare-image-high-res/B56Z1Jv2xhJYAU-/0/1775058775391?e=1790812800&v=beta&t=lsev7E4SHdYoC9DTr2rVQeXvMAyqDCi-oTOWlJflN8A",
+      "https://media.licdn.com/dms/image/v2/D5622AQEQ9KiZQqu-Fw/feedshare-image-high-res/B56Z1Jv28BKgAc-/0/1775058776108?e=1790812800&v=beta&t=LUos_1Uj4r1eYhZNPu2U1eH1DN1-GMzrEKKSQWg8OYA",
+      "https://media.licdn.com/dms/image/v2/D5622AQG4QLvrXjNEMg/feedshare-image-high-res/B56Z1Jv29aJ8AY-/0/1775058776213?e=1790812800&v=beta&t=Y3swat3nlOKT_ECgGkfdtD9aJRQFfrLxuu2emASYbRc",
+    ],
+  },
+  {
+    id: "Lace District",
+    title: "Lace District",
+
+    description:
+      "A multi-vendor footwear digital marketplace.",
+
+    longDescription:
+      "A fully responsive React-based e-commerce storefront for 'Lace District'. Featuring a seamless shopping bag, secure checkout, and a custom-built admin dashboard for inventory management.",
+
+    tech: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+
+    liveUrl: "https://keshpro.github.io/BINLEX-Clothing/",
+    githubUrl: "https://github.com/Keshpro/BINLEX-Clothing.git",
 
     category: "E-Commerce",
 
     images: [
-      "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1000&auto=format&fit=crop",
+      "",
+      "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1000&auto=format&fit=crop",
 
-      "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=1000&auto=format&fit=crop",
     ],
   },
 ];
