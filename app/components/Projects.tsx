@@ -21,6 +21,26 @@ const projectsData = [
     githubUrl: "#",
   },
   {
+    number: "22",
+    title: "Urban Hair Studio",
+    category: "Web Experience",
+    description:
+      "A luxury-style responsive portfolio and automated booking experience designed for a modern hair studio, focusing on visual presentation, services and customer conversion.",
+    tech: ["React", "Next.js", "Tailwind CSS", "Vercel"],
+    liveUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    number: "32",
+    title: "Urban Hair Studio",
+    category: "Web Experience",
+    description:
+      "A luxury-style responsive portfolio and automated booking experience designed for a modern hair studio, focusing on visual presentation, services and customer conversion.",
+    tech: ["React", "Next.js", "Tailwind CSS", "Vercel"],
+    liveUrl: "#",
+    githubUrl: "#",
+  },
+  {
     number: "02",
     title: "Urban Hair Studio",
     category: "Web Experience",

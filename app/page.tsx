@@ -6,19 +6,21 @@ import Projects from "@/app/components/Projects";
 import YoutubeSection from "@/app/components/YoutubeSection";
 import Skills from "@/app/components/Skills";
 import Contact from "@/app/components/Contact";
-// Footer eka thiyenawanum ekath import karanna (e.g., import Footer from "@/app/components/Footer";)
+// Footer eka thiyenawanum ekath import karanna
+// import Footer from "@/app/components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#0a0a0a] text-gray-200">
+    <main className="min-h-screen bg-transparent text-gray-200">
       <Hero />
       <About />
       <Skills />
-      <Education /> 
-      <Experience /> 
+      <Education />
+      <Experience />
       <Projects />
-      <YoutubeSection /> 
+      <YoutubeSection />
       <Contact />
+
       {/* <Footer /> */}
     </main>
   );
