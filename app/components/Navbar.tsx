@@ -6,7 +6,7 @@ import { ArrowUpRight } from "lucide-react";
 
 const NAV_LINKS = [
   { label: "Home", href: "#home", active: true },
-  { label: "Projects", href: "#projects" },
+  { label: "Projects", href: "./projects" },
   { label: "Thinking", href: "#thinking" },
   { label: "Lab", href: "#lab" },
   { label: "About", href: "#about" },
