@@ -14,15 +14,15 @@ import {
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen overflow-hidden bg-[#070d14] text-white">
+    <section className="relative min-h-screen overflow-hidden bg-transparent text-white">
 
       {/* ======================================================
           BACKGROUND
       ====================================================== */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute left-[30%] top-[10%] h-[500px] w-[500px] rounded-full bg-blue-500/[0.05] blur-[160px]" />
+        <div className="absolute left-[30%] top-[10%] h-125 w-125 rounded-full bg-blue-500/5 blur-[160px]" />
 
-        <div className="absolute bottom-[-20%] right-[-5%] h-[650px] w-[650px] rounded-full bg-[#d4a62a]/[0.08] blur-[180px]" />
+        <div className="absolute bottom-[-20%] right-[-5%] h-162.5 w-162.5 rounded-full bg-[#d4a62a]/8 blur-[180px]" />
 
         <div
           className="absolute inset-0 opacity-[0.025]"
