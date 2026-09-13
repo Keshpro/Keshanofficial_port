@@ -56,6 +56,34 @@ export const allProjects = [
       "/image/psalon/4.webp",
     ],
   },
+  {
+    id: "Lace District",
+    title: "Lace District",
+
+    description:
+      "A multi-vendor footwear digital marketplace.",
+
+    longDescription:
+      "A fully responsive React-based e-commerce storefront for 'Lace District'. Featuring a seamless shopping bag, secure checkout, and a custom-built admin dashboard for inventory management.",
+
+    tech: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+
+    liveUrl: "https://keshpro.github.io/BINLEX-Clothing/",
+    githubUrl: "https://github.com/Keshpro/BINLEX-Clothing.git",
+
+    category: "E-Commerce",
+
+    images: [
+      "https://kreativelabs-web.vercel.app/assets/vloader-C91fS_Q8.webp",
+      "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1000&auto=format&fit=crop",
+
+      "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=1000&auto=format&fit=crop",
+    ],
+  },
 
   {
     id: "Binlex Clothing",
